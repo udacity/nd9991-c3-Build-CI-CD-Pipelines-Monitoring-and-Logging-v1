@@ -1,0 +1,14 @@
+- name: change route53
+  route53:
+    state: present
+    zone: wread.com
+    record: www.wread.com
+    failover: PRIMARY
+    type: CNAME
+    ttl: 30
+    identifier: server1
+    private_zone: yes
+    overwrite: yes
+    value: "{{ NEW_ALIAS }}"
+    wait: yes
+    health_check: "7308e6b5-87a4-4d5f-a630-6d125e869349"

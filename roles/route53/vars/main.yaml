@@ -1,0 +1,1 @@
+NEW_ALIAS: "{{ application }}-load-balancer-1839090422.us-east-2.elb.amazonaws.com"

@@ -1,0 +1,14 @@
+---
+- name: Deploy
+  hosts: [localhost]
+  gather_facts: false
+  vars:
+    ansible_python_interpreter: /usr/bin/python2
+    application: nginxblue
+  tasks:
+    - name: create instances
+      include_role: 
+        name: create_instance
+    - name: setup DNS
+      include_role:
+        name: route53
