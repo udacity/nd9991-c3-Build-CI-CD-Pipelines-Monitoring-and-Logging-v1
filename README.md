@@ -1,17 +1,3 @@
---> In step 3
-Root user.
-IAM Dashboard - Copy the IAM User sign-in link. 
-
-IAM User sign-in link - Open a new browser window.
-Use the copied-link to sign-in as an IAM user. Use the username and password created in the previous step. 
-
-Screenshot-01 - Login as a root user. Go to IAM dashboard. Click on "Users" menu item from the sidebar and select the user that you have just created from the displayed result. Click on the "Permissions" tab. 
-
-
---> In step 5
-An Ubuntu 18.04 t2.micro is launched and can be accessed via SSH using the PEM file. A screenshot with the unique AWS URL showing should be provided. 
-
-**************************
 ## ND9991 - C3 - Build CI/CD Pipelines, Monitoring, and Logging
 This repository provides the supporting material for the "ND9991 Cloud DevOps Nanodegree - C3 - Build CI/CD Pipelines, Monitoring, and Logging" course. This repo has two more branches, other than the master branch. 
 
