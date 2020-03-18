@@ -4,7 +4,8 @@
   gather_facts: false
   vars:
     ansible_python_interpreter: /usr/bin/python2
-    application: nginxblue
+    application: nginx
+    NEW_ALIAS: nginx-load-balancer-1839090422.us-east-2.elb.amazonaws.com
   tasks:
     - name: create instances
       include_role: 

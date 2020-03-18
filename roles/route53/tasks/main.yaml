@@ -3,7 +3,7 @@
     state: present
     zone: wread.com
     record: www.wread.com
-    failover: PRIMARY
+    failover: SECONDARY
     type: CNAME
     ttl: 30
     identifier: server1

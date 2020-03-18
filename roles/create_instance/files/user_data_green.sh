@@ -9,7 +9,7 @@ server {
     #listen   [::]:80 default_server ipv6only=on; ## listen for ipv6
 
     listen 80;
-    server_name $domain_name;
+    server_name www.wread.com;
     root /var/www/html;
     index index.html index.htm;
     access_log /var/log/nginx/access.log;
