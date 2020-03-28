@@ -23,6 +23,20 @@ Check if you have installed all these plugins before start.
 * [withAWS](https://plugins.jenkins.io/pipeline-aws/)
 * [withCredentials](https://plugins.jenkins.io/credentials-binding/)
 
+#### 4. Docker (Aqua MicroScanner)
+
+1. [Install Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+1. Add docker permissions:
+
+```sh
+$ sudo groupadd docker
+$ sudo usermod -aG docker ${USER}
+$ sudo chmod 666 /var/run/docker.sock
+$ sudo systemctl restart docker
+```
+
+1. [Get Token for Aqua MicroScanner](https://microscanner.aquasec.com/signup) to configure AquaMicroScanner
+
 ## Prerequisite
 
 1. A little knowledge of basic commands in Unix terminal.
