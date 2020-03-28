@@ -12,7 +12,6 @@ pipeline {
          }
          stage('Lint HTML') {
               steps {
-                  sh 'apt-get install tidy -y'
                   sh 'tidy -q -e *.html'
               }
          }
