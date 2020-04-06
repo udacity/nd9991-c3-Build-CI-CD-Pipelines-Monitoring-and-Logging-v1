@@ -8,7 +8,7 @@ pipeline {
                      echo "Multiline shell steps works too"
                      ls -lah
                      echo "Install Tidy linting package in the instance"
-                     apt-get install -y tidy
+                     
                  '''
              }
          }
