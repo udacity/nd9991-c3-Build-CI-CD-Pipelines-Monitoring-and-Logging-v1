@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage('Build') {
              steps {
-                 sh 'echo "Hello World"'
+                 sh 'echo "Hello World this is Jenkins "'
                  sh '''
                      echo "This is build step in Jenkinsfile"
                      ls -lah
