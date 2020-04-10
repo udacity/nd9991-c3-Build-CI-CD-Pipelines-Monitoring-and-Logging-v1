@@ -5,7 +5,7 @@ pipeline {
              steps {
                  sh 'echo "Hello World"'
                  sh '''
-                     echo "This is build step"
+                     echo "This is build step in Jenkinsfile"
                      ls -lah
                  '''
              }
