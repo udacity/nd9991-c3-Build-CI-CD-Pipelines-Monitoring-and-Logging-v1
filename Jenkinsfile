@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage('Build') {
              steps {
-                 sh 'echo "Hla Mundo"'
+                 sh 'echo "Hola Mundo"'
                  sh '''
                      echo "Multiline shell steps works too"
                      ls -lah
@@ -12,7 +12,8 @@ pipeline {
          }
          stage('Lint HTML') {
               steps {
-                  sh 'tidy -q -e *.html'
+                  echo "Hola Mundo"
+                  script{tidy -q -e *.html}
               }
          }
          stage('Security Scan') {
