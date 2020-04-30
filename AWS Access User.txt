@@ -1,9 +1,0 @@
-user: luchanito
-ID Claver de acceso: AKIAWNSLQNF46CIUNZB4
-Clave de Acceso Secreta: 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
-Contraseña: mAmD63&C$o5-
-Enlace de acceso: https://441466251641.signin.aws.amazon.com/console
-
-Jenkins URL: http://54.149.215.151:8080/
-user: luchano
-pass: Luchano2013
