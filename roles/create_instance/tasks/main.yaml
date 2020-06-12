@@ -14,12 +14,13 @@
 
 - name: Create EC2 instances
   ec2:
+    key_name: Jenkins_blue
     instance_type: t2.nano
     image: ami-0986c2ac728528ac2
     user_data: "{{ USERDATA }}"
     region: us-east-2
     group_id:
-      - sg-06eb38f25fa277a4e
+      - sg-0b34698e64a6b6ec6
       - sg-0b1171c365c749d83
     wait: yes
     instance_tags:
