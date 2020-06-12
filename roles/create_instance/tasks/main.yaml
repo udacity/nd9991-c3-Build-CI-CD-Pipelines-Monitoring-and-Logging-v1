@@ -14,7 +14,7 @@
 
 - name: Create EC2 instances
   ec2:
-    key_name: Jenkins_blue
+    key_name: roberto-ssh
     instance_type: t2.nano
     image: ami-0986c2ac728528ac2
     user_data: "{{ USERDATA }}"
