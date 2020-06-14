@@ -14,14 +14,14 @@
 
 - name: Create EC2 instances
   ec2:
-    key_name: Jenkins_demo
+    key_name: roberto-ssh
     instance_type: t2.nano
     image: ami-0986c2ac728528ac2
     user_data: "{{ USERDATA }}"
     region: us-east-2
     group_id:
-      - sg-08849aeba5c5e3b04
-      - sg-0af22d4c57c7bc446
+      - sg-0b34698e64a6b6ec6
+      - sg-0b1171c365c749d83
     wait: yes
     instance_tags:
       Name: web_server
