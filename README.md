@@ -1,4 +1,11 @@
-## ND9991 - C3 - Build CI/CD Pipelines, Monitoring, and Logging
+## Deprecation Note 
+> Udacity has launched a new version of this course with a new repositories:
+> 1. https://github.com/udacity/cdond-c3-projectstarter
+> 2. https://github.com/udacity/nd9991-c3-hello-world-exercise-solution
+> 
+
+## ND9991 - C3 - Build CI/CD Pipelines, Monitoring, and Logging - 
+
 This repository provides the supporting material for the "ND9991 Cloud DevOps Nanodegree - C3 - Build CI/CD Pipelines, Monitoring, and Logging" course. This repo has two more branches, other than the master branch. 
 
 * Blue/Green branch corresponds to the Blue/Green deployment strategy. Make sure that you checkout branches "blue" and "green" to see how blue/green deployment was performed in the course.
