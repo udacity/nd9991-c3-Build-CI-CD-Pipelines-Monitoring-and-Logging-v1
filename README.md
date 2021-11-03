@@ -1,8 +1,11 @@
 ## Deprecation Note 
-> Udacity has launched a new version of this course with a new repositories:
+> Udacity launched a new version of this course in mid 2020 with a new set of (maintained) repositories:
 > 1. https://github.com/udacity/cdond-c3-projectstarter
 > 2. https://github.com/udacity/nd9991-c3-hello-world-exercise-solution
 > 
+> So, we are going to deprecate and archive the current repository. 
+> Currently, enrolled learners can utilize https://knowledge.udacity.com/ forum for help on specific issues. 
+
 
 ## ND9991 - C3 - Build CI/CD Pipelines, Monitoring, and Logging - 
 
