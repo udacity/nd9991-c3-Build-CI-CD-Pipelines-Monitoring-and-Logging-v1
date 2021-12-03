@@ -15,11 +15,34 @@ This repository provides the supporting material for the "ND9991 Cloud DevOps Na
 * You can create any more branches for a multiple pipeline set-up, as directed in the demonstration video. 
 
 ### Dependencies
+
 ##### 1. AWS account
 You would require to have an AWS account to be able to build cloud infrastructure. Particularly, you will need to create S3 buckets, EC2 instances, and IAM users.
 
 #### 2. Jenkins on Ubuntu VM
 As a part of the project, you will need to install Jenkins and a few plugins to assist your requirements, as mentioned in the "Jenkins Pipelines on AWS --> Project Details" page in the classroom. 
+
+#### 3. Jenkins Plugins
+
+Check if you have installed all these plugins before start.
+
+* [aquaMicroScanner](https://plugins.jenkins.io/aqua-microscanner/)
+* [withAWS](https://plugins.jenkins.io/pipeline-aws/)
+* [withCredentials](https://plugins.jenkins.io/credentials-binding/)
+
+#### 4. Docker (Aqua MicroScanner)
+
+1. [Install Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+1. Add docker permissions:
+
+```sh
+$ sudo groupadd docker
+$ sudo usermod -aG docker ${USER}
+$ sudo chmod 666 /var/run/docker.sock
+$ sudo systemctl restart docker
+```
+
+1. [Get Token for Aqua MicroScanner](https://microscanner.aquasec.com/signup) to configure AquaMicroScanner
 
 ## Prerequisite
 1. A little knowledge of basic commands in Unix terminal.
